@@ -34,7 +34,7 @@ Here `<inputfile>` is the path to a file containing a list of combinations of th
 4. $\alpha_{\nu}$: adopted value of the turbulent viscosity parameter
 5. $\log(T_{\rm eff})$: decimal logarithm of the effective temperature in ${\rm K}$
 
-Each line must give each of these quantities, and nothing else, in this specific order, separated by spaces or tabs. Each line cannot be longer than 256 characters. The results will be written to the output file `<outfile>` (make sure there is no such file, the program will stop if there is to avoid overwriting it). The output file will be essentially a copy of the input file, except 7 values are appended to each line:
+Each line must give each of these quantities, and nothing else, in this specific order, separated by spaces or tabs. Each line cannot be longer than 256 characters, and the file should have no headers nor footers. The results will be written to the output file `<outfile>` (make sure there is no such file, the program will stop if there is to avoid overwriting it). The output file will be essentially a copy of the input file, except 7 values are appended to each line:
 
 1. $\log(L_{\rm c})$: the critical value of luminosity, for the specified combination of $X$, $Z$, $M$, $\alpha_{\nu}$, and $\log(T_{\rm eff})$, at which the envelope becomes unstable to self-excited radial pulsation
 2. $\log(P_{\rm c})$: the period of the dominant mode the star pulsates in at the very onset of self-excited pulsation.
