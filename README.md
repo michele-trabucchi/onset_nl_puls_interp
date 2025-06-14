@@ -2,7 +2,7 @@
 
 # The onset of self-excited radial pulsation in evolved red giant stars
 
-The Fortran program `intp.f` can be used to compute the critical luminosity corresponding to the onset of self-excited radial pulsation for an arbitrary combination of physical and chemical stellar parameters by interpolation in the grid of models published in [Trabucchi & Pastorelli, 2024](https://ui.adsabs.harvard.edu/) (their table 1).
+The Fortran program `intp.f` can be used to compute the critical luminosity corresponding to the onset of self-excited radial pulsation for an arbitrary combination of physical and chemical stellar parameters by interpolation in the grid of models published in [Trabucchi & Pastorelli, 2025](https://ui.adsabs.harvard.edu/abs/2025ApJ...978...30T/abstract) (their table 1).
 
 ## Installation
 
